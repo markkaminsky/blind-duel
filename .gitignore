@@ -1,0 +1,13 @@
+# Local high score (everyone gets their own)
+dungeon_highscore.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
