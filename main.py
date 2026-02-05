@@ -490,16 +490,21 @@ def run():
     print()
     print("  1 = Classic   (no trail)")
     print("  2 = Tron     (you leave trail = ; don't crash into it!)")
+    print("  3 = Blind Duel   (2-player or vs Computer — simultaneous moves!)")
     print()
     while True:
-        choice = input("  Choose mode (1 or 2): ").strip()
+        choice = input("  Choose mode (1, 2, or 3): ").strip()
         if choice == "1":
             mode = MODE_CLASSIC
             break
         if choice == "2":
             mode = MODE_TRON
             break
-        print("  Enter 1 or 2.")
+        if choice == "3":
+            from blind_duel import run_blind_duel
+            run_blind_duel()
+            return
+        print("  Enter 1, 2, or 3.")
     print()
     input("  Press Enter to start...")
 

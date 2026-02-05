@@ -40,6 +40,7 @@ Clear all 3 levels. Your best run (most gold, then fewest turns) is saved in `du
 
 1. **Classic** – No trail; enemies chase or wander.
 2. **Tron** – You leave a trail (**=**). Touch the trail or a wall = crash (game over). Enemies also leave trails and can crash.
+3. **Blind Duel** – Hero (@) vs Warden (W). Both commit 2 moves secretly, then reveal simultaneously. Out-predict your opponent! Play 2-player or vs Computer (Easy/Medium/Hard). **Tag** = Warden predicts your move. **Clash** = both land on same square (Hero -1 HP, Warden pushed back). **Mirror Shield** = 1-time block. **Ping** = every 3 turns, Warden can reveal Hero in 3×3.
 
 ---
 
